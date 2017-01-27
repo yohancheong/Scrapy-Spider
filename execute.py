@@ -5,5 +5,4 @@ process = CrawlerProcess(get_project_settings())
 
 # 'followall' is the name of one of the spiders of the project.
 process.crawl('software_jobs', domain='')
-
 process.start() # the script will block here until the crawling is finished
